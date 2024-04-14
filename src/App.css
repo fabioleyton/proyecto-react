@@ -1,0 +1,176 @@
+body {
+    background-image: url("img/7.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #000000;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar .nav-link {
+    color: #00eeff;
+}
+
+/* Estilo personalizado para el logo */
+.navbar-brand img {
+    max-height: 120px;
+}
+
+/* Estilo para el contenedor del formulario de login */
+.containerprincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    min-height: calc(100vh - 140px);
+}
+
+nav a:hover {
+    background-color: #333333;
+}
+
+/* Estilo para el formulario de login */
+.form-group {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #179ad6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor de botones */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para los botones */
+.boton {
+    margin-top: 10px;
+    background-color: #b1ffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el texto debajo del formulario */
+#texto {
+    margin-top: 20px;
+    color: #000000;
+    font-size: 18px;
+}
+
+/* Estilo para el fondo blanco del texto "Control y Manejo de Inventarios" */
+.section1 {
+    background-color: #bee7ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 238, 255, 0.1);
+}
+
+/* Estilo para el fondo blanco del texto "Características destacadas" */
+.section2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(199, 18, 18, 0.1);
+}
+
+/* Estilos para el botón de WhatsApp */
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+#whatsapp-icon {
+    width: 50px;
+}
+
+/* estilo para el formulario registro*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.boton-regresar {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: #e7e7e7;
+}
+
+
+/*estilos para el pie de pagina*/
+.footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto */
+    padding: 40px 0; /* Espaciado interno del pie de página */
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    flex-direction: column; /* Mostrar elementos en columna */
+    text-align: center; /* Alinear texto al centro */
+  }
+  
+  .footer h4 {
+    color: #fff; /* Color del título */
+    font-size: 20px; /* Tamaño del título */
+  }
+  
+  .footer p {
+    font-size: 16px; /* Tamaño del texto */
+  }
+  
+  .social-icons a {
+    color: #fff; /* Color de los iconos de redes sociales */
+    font-size: 24px; /* Tamaño de los iconos de redes sociales */
+    margin: 0 10px; /* Espaciado entre los iconos */
+  }
+  
+  .social-icons a:hover {
+    color: #00eeff; /* Color de los iconos de redes sociales al pasar el mouse */
+  }
+
+
+  .copyright {
+    margin-top: 20px; /* Espaciado superior del texto de derechos de autor */
+    font-size: 14px; /* Tamaño del texto de derechos de autor */
+  }
+  
+
+/* Estilo para el logo principal */
+.logoPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Estilo para el contenedor de secciones */
+.parrafo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }

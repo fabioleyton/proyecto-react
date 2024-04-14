@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Software Control Manejo Inventarios</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #141414;">
+        <div class="container">
+            <!-- Logo en la barra de navegación -->
+            <a class="navbar-brand" href="#">
+                <img src="src/img/logo1.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Registro de nuevo usuario -->
+
+    <div class="containerprincipal">
+        <div class="form-group">
+            <h1>Registro</h1>
+            <form>
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Telefono">Numero de Telefono:</label>
+                <input type="tel" id="tel" name="tel" required>
+
+                <button type="submit" class="boton">Registrarse</button>
+                <a href="App.jsx" class="boton boton-regresar">Regresar</a>
+            </form>
+        </div>
+    </div>
+
+    <!--icono whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=573118068358&text=Hola%20quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n.%20Gracias."
+        target="_blank" id="whatsapp-button">
+        <img src="src/img/wt.png" alt="Contactar por WhatsApp" id="whatsapp-icon">
+    </a>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Información de contacto</h4>
+                    <p>faavendano0@soy.sena.edu.co</p>
+                    <p>Teléfono: (+57) 311 806 8358</p>
+                    <p>Dirección: calle 100 carrera 100 # 75 Bogota</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Síguenos en redes sociales</h4>
+                    <div>
+                        <!-- Agrega aquí los enlaces a tus redes sociales -->
+                        <a href="https://www.facebook.com/betoleyton8/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/betoleyton8/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCpIEnC6i4WG1c17SLtK7Yfw" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                    <!-- Logo en la barra de navegación -->
+                    <a class="navbar-brand" href="#">
+                        <img src="src/img/logo1.png" alt="Logo">
+                    </a>
+                </div>
+            </div>
+            <p>Derechos de autor © 2023 - FABIO AVENDAÑO</p>
+        </div>
+    </footer>
+
+</body>
